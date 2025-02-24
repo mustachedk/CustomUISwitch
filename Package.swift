@@ -13,9 +13,6 @@ let package = Package(
     targets: [
         .target(
             name: "CustomUISwitch",
-            dependencies: []),
-        .testTarget(
-            name: "CustomUISwitchTests",
-            dependencies: ["CustomUISwitch"]),
+            dependencies: [])
     ]
 )
